@@ -15,7 +15,7 @@
   /* Font sizes */
   --font-size-small: clamp(0.875rem, 2.5vw, 1rem); /* 14px to 16px */
   --font-size-medium: clamp(1rem, 2.5vw, 1.25rem); /* 16px to 20px */
-  --font-size-large: clamp(1.5rem, 5vw, 2.5rem); /* 24px to 40px */
+  --font-size-large: clamp(1.25rem, 5vw, 2.5rem); /* 20px to 40px */
 
   /* Font weights */
   --font-weight-small: 200;
@@ -111,28 +111,20 @@ img {
   margin: 1rem;
 }
 
-/* Separator styling */
-hr {
-  border-radius: 10px 10px 0 0;
-  block-size: /* height*/ 0.3rem;
-  width: 100%;
+/* set color on top of each card  */
+.card__supervisor {
+  border-top: 5px solid var(--Cyan);
 }
-
-/* set color for each card Separator */
-.card__supervisor hr {
-  background-color: var(--Cyan);
-}
-
 .card__team hr {
-  background-color: var(--Red);
+  border-top: 5px solid var(--Red);
 }
 
 .card__karm hr {
-  background-color: var(--Orange);
+  border-top: 5px solid var(--Orange);
 }
 
 .card__calculator hr {
-  background-color: var(--Blue);
+  border-top: 5px solid var(--Blue);
 }
 
 /* Attribution styling */
